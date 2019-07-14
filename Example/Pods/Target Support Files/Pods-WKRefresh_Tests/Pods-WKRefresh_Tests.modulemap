@@ -1,0 +1,6 @@
+framework module Pods_WKRefresh_Tests {
+  umbrella header "Pods-WKRefresh_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

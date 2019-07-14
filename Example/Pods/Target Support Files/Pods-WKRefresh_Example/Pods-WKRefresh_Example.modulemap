@@ -1,0 +1,6 @@
+framework module Pods_WKRefresh_Example {
+  umbrella header "Pods-WKRefresh_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

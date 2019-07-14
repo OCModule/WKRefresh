@@ -1,0 +1,23 @@
+PODS:
+  - MJRefresh (3.2.0)
+  - WKRefresh (0.1.0)
+
+DEPENDENCIES:
+  - MJRefresh
+  - WKRefresh (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  WKRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  WKRefresh: 815042da900c909f0b6538f7431137b9131453e8
+
+PODFILE CHECKSUM: 0eed7d16eca68d57eb223cd6ae3e5d68f1e56456
+
+COCOAPODS: 1.5.2

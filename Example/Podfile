@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'WKRefresh_Example' do
   pod 'WKRefresh', :path => '../'
+  pod 'MJRefresh'
 
   target 'WKRefresh_Tests' do
     inherit! :search_paths

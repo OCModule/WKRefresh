@@ -1,0 +1,6 @@
+framework module WKRefresh {
+  umbrella header "WKRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
