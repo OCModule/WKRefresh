@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WKRefresh_Example' do
+  pod 'WKRefresh', :path => '../'
+
+  target 'WKRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
