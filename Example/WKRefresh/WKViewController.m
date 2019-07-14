@@ -44,7 +44,7 @@
     CABasicAnimation* rotationAnimation;
         rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
         rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 0.5 ];
-        rotationAnimation.duration = 0.2;
+        rotationAnimation.duration = 0.4;
         rotationAnimation.cumulative = YES;
         rotationAnimation.repeatCount = MAXFLOAT;
         [self.loadingView.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];//开始动画
